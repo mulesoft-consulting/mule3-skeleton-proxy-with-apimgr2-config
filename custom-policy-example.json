@@ -1,0 +1,10 @@
+[{
+	"policyTemplateId": "34936",
+	"configurationData": {
+		"pf_validate_url": "https://cidmsrh.frbnp1.com:3000/as/token.oauth2",
+		"client_id": "xxx",
+		"client_secret": "xxx",
+		"validation_client_id": "xxx",
+		"scope": "xxx"
+	}
+}]
