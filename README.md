@@ -12,8 +12,8 @@ API configuration is executed with ApiConfigTool (using the exec-maven-plugin).
 1. Java 1.8 JDK needs to be installed.
 2. Maven 3.3.9 needs to be installed and configured for use.
 3. The sample-settings.xml file needs to be taken from the project, updated to have appropriate user credentials, Anypoint configuration values (like environment, server and business group names).
-4. The timerInterceptor project needs to be download and built (mvn clean install).
-5. The ApiConfigTool project needs to be download and built (mvn clean install).
+4. The timerInterceptor project needs to be download and built (mvn clean install). See [https://github.com/mulesoft-consulting/mule3-timerInterceptor]()
+5. The ApiConfigTool project needs to be download and built (mvn clean install). See [https://github.com/mulesoft-consulting/api-config-tool]()
 
 ## Using the Template
 
