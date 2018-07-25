@@ -17,6 +17,9 @@ http://www.mulesoft.org/schema/mule/secure-property-placeholder http://www.mules
 		host="${implementation.host}" port="${implementation.port}"
 		basePath="${implementation.path}" doc:name="HTTP Request Configuration" />
 
+        <http:listener-config name="https.listener"
+                host="0.0.0.0" port="8081" doc:name="https.listener" />
+
 	<secure-property-placeholder:config
 		name="Secure_Property_Placeholder" key="${mule.key}" location="${mule.env}-config.properties"
 		doc:name="Secure Property Placeholder" />
