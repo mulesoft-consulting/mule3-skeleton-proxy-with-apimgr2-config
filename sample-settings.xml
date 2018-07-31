@@ -19,6 +19,11 @@
 			<username>peter.dunworth</username>
 			<password>x</password>
 		</server>
+		<server>
+			<id>internal-repo</id>
+			<username>pdunworth</username>
+			<password>y</password>
+		</server>
 	</servers>
 
 	<activeProfiles>
