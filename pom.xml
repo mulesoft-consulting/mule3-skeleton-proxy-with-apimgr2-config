@@ -340,4 +340,12 @@
 			</build>
 		</profile>
 	</profiles>
+
+    <distributionManagement>
+        <repository>
+            <id>internal-repo</id>
+            <url></url>
+        </repository>
+    </distributionManagement>
+
 </project>
